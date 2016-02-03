@@ -1,5 +1,6 @@
 cacti:
-  image: quantumobject/docker-cacti
+  #image: quantumobject/docker-cacti
+  image: tukiyo3/cacti
   ports:
    - "80:80"
    - "161:161"
